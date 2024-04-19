@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range .RegularPages }}
+      <div class="md:col-6 lg:col-4 mb-14">
+        <div class="p-8 text-center rounded bg-theme-light dark:bg-darkmode-theme-light">
+          {{ $image:= .Params.image }}
+          {{ if $image }}
+          {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
+          {{ else if .Params.Email }}
+          <img class="mx-auto mb-6 rounded" alt="{{ .Title }}" height="120" width="120"
+            src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
+          {{ end }}
+          <h4 class="mb-3">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h4>
+        </div>
+
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

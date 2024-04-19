@@ -16,7 +16,7 @@ logo_text = "Hugoplate"
 navbar_fixed = false
 # theme-mode
 theme_default = "system" # available options [light/dark/system]
-theme_switcher = true
+theme_switcher = false
 # Main Sections
 mainSections = ["blog"]
 # contact form action

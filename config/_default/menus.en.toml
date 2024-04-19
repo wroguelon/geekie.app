@@ -7,8 +7,8 @@
   weight = 1
 
 [[main]]
-  name = "À propos"
-  pageRef = "/about"
+  name = "Nos formateurs"
+  pageRef = "/our-trainers"
   weight = 2
 
 [[main]]
@@ -47,17 +47,37 @@
 
 
 # footer menu
-# [[footer]]
-#   name = "About"
-#   pageRef = "/about"
-#   weight = 1
+[[footer]]
+  name = "CGV"
+  url = "/documents/terms-of-sales.pdf"
+  weight = 1
 
-# [[footer]]
-#   name = "Elements"
-#   pageRef = "/elements"
-#   weight = 2
+[[footer]]
+  name = "CGU"
+  url = "/documents/terms-of-service.pdf"
+  weight = 2
 
-# [[footer]]
-#   name = "Privacy Policy"
-#   pageRef = "/privacy-policy"
-#   weight = 3
+[[footer]]
+  name = "Règlement interieur des formations"
+  url = "/documents/internal-regulations.pdf"
+  weight = 3
+
+[[footer]]
+  name = "RGPD"
+  url = "/documents/general-data-protection-regulation.pdf"
+  weight = 4
+
+[[footer]]
+  name = "Cookie"
+  url = "/documents/cookie.pdf"
+  weight = 5
+
+[[footer]]
+  name = "Politique de confidentialité"
+  url = "/documents/privacy-policy.pdf"
+  weight = 6
+
+[[footer]]
+  name = "Mentions légales"
+  url = "/documents/legal-notice.pdf"
+  weight = 7
