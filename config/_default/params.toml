@@ -56,10 +56,21 @@ copyright = "© 2024 Geekie. Tous les droits sont réservés"
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-  author = "zeon.studio"
-  description = "Hugo & Tailwindcss Starter"
-  image = "images/og-image.png"
-  keywords = ["Boilerplate", "Hugo"]
+  author = "William ROGUELON"
+  description = "Geekie réinvente la gestion des organisations à travers la formations et l’intelligence artificielle"
+  image = "images/og-image.jpg"
+  keywords = [
+    "Dirigeants",
+    "Formation",
+    "Gestion",
+    "IA",
+    "Innovation",
+    "Intelligence artificielle",
+    "Optimisation",
+    "Organisations",
+    "Réinvention",
+    "Technologie",
+  ]
 
 
 # site verifications
