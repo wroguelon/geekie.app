@@ -1,14 +1,14 @@
 <footer class="bg-theme-light dark:bg-darkmode-theme-light">
   <div class="container">
     <div class="items-center py-10 row">
-      <!-- <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
-        <a class="inline-block navbar-brand" href="{{ site.Home.RelPermalink }}">
+      <div class="mb-8 text-center lg:col-4 lg:mb-0 lg:text-left">
+        <a class="inline-block navbar-brand" href="/documents/qualiopi.pdf">
           {{ partial "image" (dict "Src" "images/qualiopi.png" "Alt" "Qualiopi" "DisplayXL" "520x" "DisplayLG" "425x"
           "DisplayMD"
           "360x" "Class" "rounded-lg") }}
         </a>
-      </div> -->
-      <div class="mb-8 text-left lg:col-6 lg:mb-0">
+      </div>
+      <div class="mb-8 text-left lg:col-4 lg:mb-0">
         <ul>
           {{ range site.Menus.footer }}
           <li class="inline-block m-3">
@@ -23,7 +23,7 @@
           {{ end }}
         </ul>
       </div>
-      <div class="mb-8 text-center lg:col-6 lg:mb-0 lg:mt-0 lg:text-right">
+      <div class="mb-8 text-center lg:col-4 lg:mb-0 lg:mt-0 lg:text-right">
         <ul class="social-icons">
           {{ range site.Data.social.main }}
           <li>
